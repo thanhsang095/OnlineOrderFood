@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFood"
+        android:hint="Tên món ăn"
+        android:textSize="17dp"
+        android:layout_below="@+id/imgFood"
+        android:textStyle="normal|bold"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@android:color/black"
+        android:background="@drawable/image_border"
+        android:gravity="center" />
+
+
+
+    <ImageView
+        android:layout_width="170dp"
+        android:layout_height="120dp"
+        android:scaleType="fitXY"
+        android:id="@+id/imgFood"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/image_border"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        app:srcCompat="@drawable/food1" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPrice"
+        android:textSize="17dp"
+        android:textStyle="normal|bold"
+        android:paddingBottom="4dp"
+        android:text="10k"
+        android:paddingTop="4dp"
+        android:background="#5b9bd5"
+        android:layout_alignRight="@id/imgFood"
+        android:textColor="@android:color/white"
+        android:gravity="center" />
+
+</RelativeLayout>

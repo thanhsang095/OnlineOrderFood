@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kind_food_border"
+                android:id="@+id/button2"
+                android:text="Favourite Food"
+                android:textSize="18dp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/holo_red_light"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="450dp"
+                android:dividerHeight="10dp"
+                android:id="@+id/lvFavouriteFood"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kind_food_border"
+                android:id="@+id/button3"
+                android:text="Starters"
+                android:textSize="18dp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/holo_red_light"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="570dp"
+                android:dividerHeight="10dp"
+                android:id="@+id/lvStarters"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kind_food_border"
+                android:id="@+id/button4"
+                android:text="Main Dishes"
+                android:textSize="18dp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/holo_red_light"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="1130dp"
+                android:dividerHeight="10dp"
+                android:id="@+id/lvMainDishes"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kind_food_border"
+                android:id="@+id/button5"
+                android:text="Soups"
+                android:textSize="18dp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/holo_red_light"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="575dp"
+                android:dividerHeight="10dp"
+                android:id="@+id/lvSoups"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kind_food_border"
+                android:id="@+id/button6"
+                android:text="Drinks"
+                android:textSize="18dp"
+                android:textStyle="normal|bold"
+                android:textColor="@android:color/holo_red_light"
+                android:layout_marginLeft="5dp"
+                android:gravity="center"
+                android:layout_marginTop="20dp" />
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="640dp"
+                android:dividerHeight="10dp"
+                android:id="@+id/lvDrinks"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@drawable/border_button_menu"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnExit"
+            android:layout_weight="1"
+            android:background="#548235"
+            android:text="Exit"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="35dp"
+            android:onClick="exitSelectMenu"
+            android:textSize="18dp"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:text="Confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnConfirm"
+            android:layout_weight="1"
+            android:background="#548235"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="normal|bold"
+            android:textSize="18dp"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</RelativeLayout>

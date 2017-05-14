@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="15dp"
+    android:orientation="vertical"
+    android:background="@drawable/custom_background_current_order"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Table: "
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/txtNameTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="1"
+            android:layout_marginLeft="15dp"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:text="Floor: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:layout_weight="1"
+            android:layout_marginLeft="60dp"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+        <TextView
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtFloor"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total: "
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/txtTotalMoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="150k"
+            android:layout_marginLeft="15dp"
+            android:textSize="18dp"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "394313230740",
+    "firebase_url": "https://onlineorderfood-fac79.firebaseio.com",
+    "project_id": "onlineorderfood-fac79",
+    "storage_bucket": "onlineorderfood-fac79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394313230740:android:61efb65be709e216",
+        "android_client_info": {
+          "package_name": "com.developer.sangbarca.onlineorderfood"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394313230740-veimtp79eojqokq9r6042u999htdc844.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.developer.sangbarca.onlineorderfood",
+            "certificate_hash": "692fb3080ed370b010a98cf7621035c0f789bc68"
+          }
+        },
+        {
+          "client_id": "394313230740-4pctl6tokfe7ctfd38jk879637orj3n8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlo-VifH_Ecj_YjcpDxCHaUHSqfFfj0F8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394313230740-4pctl6tokfe7ctfd38jk879637orj3n8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

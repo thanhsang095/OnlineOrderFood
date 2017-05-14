@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D9DBDA">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/custom_label_order">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/current_order"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Current Order"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="20sp"
+                        android:textStyle="normal|bold" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="198dp"
+                android:id="@+id/lv_current_order"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"
+                android:dividerHeight="10dp"
+                android:layout_marginRight="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/custom_label_order">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/complete_order"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Order History"
+                        android:layout_marginLeft="5dp"
+                        android:textSize="20sp"
+                        android:textStyle="normal|bold" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_weight="0.2"
+                            android:layout_height="wrap_content"
+                            android:text="STT"
+                            android:background="@drawable/custom_background_history_order"
+                            android:textColor="@color/white_close"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="5dp"
+                            android:textSize="18sp"
+                            android:layout_width="20dp"
+                            android:paddingLeft="15dp"
+                            android:textStyle="normal|bold" />
+
+                        <TextView
+                            android:layout_weight="0.4"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white_close"
+                            android:background="@drawable/custom_background_history_order"
+                            android:text="Date"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="15dp"
+                            android:textSize="18sp"
+                            android:layout_width="100dp"
+                            android:textStyle="normal|bold" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_weight="0.4"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/white_close"
+                            android:background="@drawable/custom_background_history_order"
+                            android:text="Price"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="5dp"
+                            android:paddingLeft="15dp"
+                            android:textSize="18sp"
+                            android:textStyle="normal|bold" />
+                    </LinearLayout>
+
+                    <ListView
+                        android:id="@+id/lv_history_order"
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp">
+                    </ListView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

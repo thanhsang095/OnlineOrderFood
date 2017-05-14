@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/select_item_menu_border"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="80dp"
+        app:srcCompat="@drawable/food1"
+        android:id="@+id/imgFoodName"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="195dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Tên món ăn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/name_food_border"
+            android:id="@+id/txtFoodName"
+            android:textStyle="normal|bold"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp" />
+
+        <TextView
+            android:text="Price: 35k"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/price_food_border"
+            android:id="@+id/txtFoodPrice"
+            android:textStyle="normal|bold"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon_add"
+            android:id="@+id/btnAdd"
+            android:layout_weight="1"
+            android:background="#9dc3e6"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:text="0"
+            android:layout_height="wrap_content"
+            android:background="@drawable/number_food_border"
+            android:id="@+id/txtNumberFood"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:textStyle="normal|bold"
+            android:textSize="18dp"
+            android:gravity="center"
+            android:layout_width="45dp"
+            android:paddingBottom="7dp"
+            android:paddingTop="7dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon_sub"
+            android:id="@+id/btnSub"
+            android:layout_weight="1"
+            android:background="#9dc3e6"
+            android:layout_marginLeft="5dp" />
+
+    </LinearLayout>
+</LinearLayout>

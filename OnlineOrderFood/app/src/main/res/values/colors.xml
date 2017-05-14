@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="tab_unselected">#3f51b5</color>
+    <color name="tab_selected">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="white_close">#EEECE6</color>
+    <color name="white_text_color">#c3c3c3</color>
+
+    <color name="gray_background">#D9DBDA</color>
+
+    <color name="purple_press">#9b2a7f</color>
+    <color name="purple_normal">#a53f8b</color>
+    <color name="purple_focus">#b969a5</color>
+
+    <color name="blue_press">#0e19ab</color>
+    <color name="blue_normal">#3e46bb</color>
+    <color name="blue_focus">#6e75cc</color>
+    <color name="blue_light">#7C97F6</color>
+
+    <color name="top_bar_tapped">#eeeeee</color>
+    <color name="action_bar_highlight">#d0021b</color>
+
+    <color name="layout_order">#F2C026</color>
+    <color name="item_history_order">#A4BED6</color>
+</resources>
